@@ -1,3 +1,28 @@
 img{
     width: 150px;
 }
+.row{
+    padding: 15px;
+}
+@media (min-width: 576px){
+    #fotoPerfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 5px 5px 5px gray;
+        top: 470px;
+    }
+}
+@media (max-width: 575px){
+    #fotoPerfil{
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 5px 5px 5px gray;
+        top: 400px;
+    }
+}
+#nombre{
+    font-weight: bold;
+    margin-top: 5%;
+}

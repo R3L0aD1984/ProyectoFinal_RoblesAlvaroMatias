@@ -1,0 +1,15 @@
+#fotoFRTDF{
+    width: 180px;
+    left: 5px;
+}
+.row{
+    padding: 20px;
+    left: 10px;
+}
+#fotoFRT{
+    width: 130px;
+    left: 5px;
+}
+h2, h4{
+    display: inline;
+}
