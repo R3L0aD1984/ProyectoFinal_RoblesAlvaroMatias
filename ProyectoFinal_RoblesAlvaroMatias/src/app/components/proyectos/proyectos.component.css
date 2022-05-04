@@ -1,0 +1,26 @@
+.row{
+    padding: 20px;
+    padding-top: 10px;
+    left: 10px;
+}
+
+.contenedor{
+    width: auto;
+}
+
+.fotoP, .textoP, .textoProy, .fotoProy{
+    display: inline-block;
+    text-align: justify;
+}
+
+.img-porf{
+    width: 160px;
+    right: 2px;
+    box-shadow: 5px 5px 25px #000000;
+}
+
+.img-proy{
+    width: 160px;
+    right: 2px;
+    box-shadow: 5px 5px 25px #000000;
+}
