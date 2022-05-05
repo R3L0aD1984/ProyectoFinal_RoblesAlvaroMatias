@@ -1,0 +1,15 @@
+.row{
+    padding: 20px;
+    padding-top: 5px;
+    left: 10px;
+    background-color: #7fa8c0;
+}
+
+footer, h6{
+    font-size: 14px;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
