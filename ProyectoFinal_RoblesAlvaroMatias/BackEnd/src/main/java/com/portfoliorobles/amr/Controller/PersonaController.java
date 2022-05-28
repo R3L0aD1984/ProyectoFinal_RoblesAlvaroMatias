@@ -4,6 +4,7 @@ import com.portfoliorobles.amr.Entity.Persona;
 import com.portfoliorobles.amr.Interface.IntPersonaService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -17,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author Matias Robles
  */
 @RestController
+@CrossOrigin(origins = "http://localhost:4200")
 public class PersonaController {
     @Autowired IntPersonaService intPersonaService;
     
@@ -25,7 +27,7 @@ public class PersonaController {
         return intPersonaService.getPersona();
     }
     
-    @PostMapping("personas/crear")
+    @PostMapping("/personas/crear")
     public String createPersona(@RequestBody Persona persona){
         intPersonaService.savePersona(persona);
         return "La persona fue creado con exito";
@@ -51,4 +53,5 @@ public class PersonaController {
         intPersonaService.savePersona(persona);
         return persona;
     }
+    
 }
