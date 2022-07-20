@@ -57,11 +57,25 @@
             <artifactId>spring-boot-starter-security</artifactId>
             <version>2.7.0</version>
         </dependency>
+        
+       
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+            <version>2.6.8</version>
+        </dependency>
+
 
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt</artifactId>
             <version>0.9.1</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>au.org.ala</groupId>
+            <artifactId>userdetails</artifactId>
+            <version>2.3.0-ogbrcoral-2.10</version>
         </dependency>
                 
     </dependencies>
