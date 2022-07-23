@@ -65,12 +65,8 @@
             <version>0.9.1</version>
         </dependency>
         
-        <dependency>
-            <groupId>au.org.ala</groupId>
-            <artifactId>userdetails</artifactId>
-            <version>2.3.0-ogbrcoral-2.10</version>
-        </dependency>
-                
+     
+
     </dependencies>
 
     <build>
@@ -86,6 +82,8 @@
                         </exclude>
                     </excludes>
                 </configuration>
+                
+                
             </plugin>
         </plugins>
     </build>

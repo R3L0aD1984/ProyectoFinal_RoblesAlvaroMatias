@@ -2,6 +2,7 @@ package com.portfoliorobles.amr.Security.Service;
 
 import com.portfoliorobles.amr.Security.Entity.Usuario;
 import com.portfoliorobles.amr.Security.Entity.UsuarioPrincipal;
+import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -12,6 +13,7 @@ import org.springframework.stereotype.Service;
  * @author Matias Robles
  */
 @Service
+@Transactional
 public class UserDetailsImpl implements UserDetailsService{
     @Autowired
     UsuarioService usuarioService;
