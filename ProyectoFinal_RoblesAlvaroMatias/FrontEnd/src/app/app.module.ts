@@ -7,7 +7,6 @@ import { HeaderComponent } from './components/header/header.component';
 import { LogoArgPComponent } from './components/logo-arg-p/logo-arg-p.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
-import { LaboralComponent } from './components/laboral/laboral.component';
 import { EstudiosComponent } from './components/estudios/estudios.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { SkillComponent } from './components/skill/skill.component';
@@ -21,6 +20,8 @@ import { interceptorProvider } from './service/interceptor-service';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { NewExperienciaComponent } from './components/experiencia/new-experiencia.component';
 import { EditExperienciaComponent } from './components/experiencia/edit-experiencia.component';
+import { NeweducacionComponent } from './components/estudios/neweducacion.component';
+import { EditeducacionComponent } from './components/estudios/editeducacion.component';
 
 
 @NgModule({
@@ -30,7 +31,6 @@ import { EditExperienciaComponent } from './components/experiencia/edit-experien
     LogoArgPComponent,
     BannerComponent,
     AcercaDeComponent,
-    LaboralComponent,
     EstudiosComponent,
     SkillComponent,
     ProyectosComponent,
@@ -40,6 +40,8 @@ import { EditExperienciaComponent } from './components/experiencia/edit-experien
     ExperienciaComponent,
     NewExperienciaComponent,
     EditExperienciaComponent,
+    NeweducacionComponent,
+    EditeducacionComponent,
     
   ],
   imports: [

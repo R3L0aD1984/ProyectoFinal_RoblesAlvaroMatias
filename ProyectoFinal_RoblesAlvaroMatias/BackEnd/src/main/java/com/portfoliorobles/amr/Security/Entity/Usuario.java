@@ -1,6 +1,5 @@
 package com.portfoliorobles.amr.Security.Entity;
 
-import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 import javax.persistence.Column;
@@ -18,7 +17,7 @@ import javax.validation.constraints.NotNull;
  * @author Matias Robles
  */
 @Entity
-public class Usuario implements Serializable {
+public class Usuario {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;

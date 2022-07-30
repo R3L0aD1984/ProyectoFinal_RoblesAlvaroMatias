@@ -10,8 +10,9 @@ img{
         width: 15%;
         border-radius: 100%;
         box-shadow: 5px 5px 5px gray;
-        top: 470px;
+        top: 400px;
     }
+
 }
 @media (max-width: 575px){
     #fotoPerfil{
@@ -19,10 +20,16 @@ img{
         width: 30%;
         border-radius: 100%;
         box-shadow: 5px 5px 5px gray;
-        top: 400px;
+        top: 300px;
     }
+
 }
 #nombre{
     font-weight: bold;
     margin-top: 5%;
+    top: 300px;
+}
+
+#titulo{
+    top: 350px;
 }
