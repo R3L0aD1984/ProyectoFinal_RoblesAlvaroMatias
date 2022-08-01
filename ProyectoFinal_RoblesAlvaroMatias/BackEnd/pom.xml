@@ -70,6 +70,8 @@
             <artifactId>commons-lang3</artifactId>
             <version>3.9</version>
         </dependency>
+        
+        
 
     </dependencies>
 
@@ -85,9 +87,31 @@
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>
-                </configuration>
-                
-                
+                </configuration>   
+            </plugin>
+            
+            <plugin>
+                <groupId>org.apache.mavin.plugin</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>3.0.2</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>copy</goal>
+                        </goals>
+                        <configuration>
+                            <artifactItems>
+                                <artifactItem>
+                                    <groupId>https://github.com/R3L0aD1984/ProyectoFinal_RoblesAlvaroMatias</groupId>
+                                    <artifactId>webapp-runner</artifactId>
+                                    <version>8.5.31.0</version>
+                                    <destFileName>webapp-runner.jar</destFileName>
+                                </artifactItem>
+                            </artifactItems>
+                        </configuration>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
