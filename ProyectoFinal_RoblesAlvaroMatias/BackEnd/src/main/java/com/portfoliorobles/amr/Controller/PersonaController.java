@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
 public class PersonaController {
-    @Autowired IntPersonaService intPersonaService;
+   @Autowired IntPersonaService intPersonaService;
     
     @GetMapping("/personas/traer")
     public List<Persona> getPersona(){
